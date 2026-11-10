@@ -43,6 +43,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
 
+Plug 'ghifarit53/tokyonight-vim'
+
 call plug#end()
 
 " ==========================================
@@ -69,3 +71,13 @@ nnoremap <C-l> <C-w>l
 " ==========================================
 
 nnoremap <leader>h :nohlsearch<CR>
+
+" ==========================================
+" TOKYO NIGHT
+" ==========================================
+
+set termguicolors
+
+let g:tokyonight_transparent = 1
+
+colorscheme tokyonight
